@@ -8,7 +8,7 @@ VAE, a generative neural network is implemented with TF2.0.
 #### Results with Latent dimension equals to 2
 
 ###### - Reconstructed Images 
-![Ground Truth Images](https://raw.githubusercontent.com/TanyaChutani/VAE-TF2.0/master/result/generate_true.png?token=AGCG5WHXX37JEABZMSOKA4S6X2OEW "title-1") ![Reconstructed Images](https://github.com/TanyaChutani/VAE-TF2.0/blob/master/result/generate_pred.png?raw=true "title-2")
+![Ground Truth Images vs Reconstructed Images](https://raw.githubusercontent.com/TanyaChutani/VAE-TF2.0/master/result/image.png?token=AGCG5WAGUOVY3BRRHW62NVC6X2RTA) 
 <br />
 
 ###### - Randomly Generated images
