@@ -1,21 +1,17 @@
-## Variational Encoder with Tensorflow
+## Variational AutoEncoder with Tensorflow
 
-Variational Autoencoder
+VAE, a generative neural network is implemented with TF2.0.
 
-Dataset used -
-1. Mnist 
-2. Olivetti faces
-
-#### Model
-
-- VAE, a deep neural network is implemented with TF2.0.
-- Input to model is noisy image and output is the same image without noise.
-- Filter size is 16 followed by 32 and latent dimesion is 16 units.
-- The loss function for training is mse.
-
-#### Paper 
+##### The original Paper 
 [Paper] (https://arxiv.org/pdf/1312.6114.pdf)
 
-#### Results
+#### Results with Latent dimension equals to 2
 
-![](https://raw.githubusercontent.com/TanyaChutani/Unet/master/Output/unet1.png)<br />
+###### - Reconstructed Images 
+![Ground Truth](https://raw.githubusercontent.com/TanyaChutani/VAE-TF2.0/master/result/generate_true.png?token=AGCG5WHXX37JEABZMSOKA4S6X2OEW) ![Reconstructed Image](https://github.com/TanyaChutani/VAE-TF2.0/blob/master/result/generate_pred.png?raw=true)
+
+###### - Randomly Generated images
+![](https://raw.githubusercontent.com/TanyaChutani/VAE-TF2.0/master/result/random_generate.png?token=AGCG5WFMJJ2QZV4CVVHUNG26X2ORI)<br />
+
+##### - Generated Image on Olivetti Faces
+![](https://raw.githubusercontent.com/TanyaChutani/VAE-TF2.0/master/result/uniform_generte_face.png?token=AGCG5WFHSOQ4HEDQKVGQ4FC6X2O5E)<br />
